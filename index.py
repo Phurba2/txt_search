@@ -2,7 +2,7 @@
 
 from config.settings import DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
 from src.embeddings import EmbeddingGenerator
-from src.markdown_processor import create_default_processor
+from src.txt_processor import create_default_processor
 from src.embedding_pipeline import EmbeddingPipeline
 from src.search import PaperSearchEngine, SearchMode
 
