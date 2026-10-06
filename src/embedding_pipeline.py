@@ -34,11 +34,11 @@ class EmbeddingPipeline:
                 rows = []
                 for index, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
                     text = chunk["text"]
-                    rows.append((paper_id, index, text, chunk.get("token_count"), embedding.tolist(), chunk.get("section_name"), self._detect_math(text), self._detect_code(text), self._detect_references(text)))
+                    rows.append((paper_id, index, text, chunk.get("token_count"), embedding.tolist(), chunk.get("section_name") ))
                 execute_batch(cursor, """
                     INSERT INTO paper_chunks
-                    (paper_id, chunk_index, chunk_text, chunk_tokens, embedding, section_name, has_math, has_code, has_references)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    (paper_id, chunk_index, chunk_text, chunk_tokens, embedding, section_name)
+                    VALUES (%s, %s, %s, %s, %s, %s)
                 """, rows, page_size=self.batch_size)
                 cursor.execute("""
                     UPDATE papers SET embedding_generated = TRUE, processed = TRUE,
@@ -51,18 +51,6 @@ class EmbeddingPipeline:
         finally:
             conn.close()
         return {"paper_id": paper_id, "chunks": len(chunks), "embedded": len(embeddings), "status": "completed"}
-
-    @staticmethod
-    def _detect_math(text):
-        return any(re.search(pattern, text, re.IGNORECASE) for pattern in [r"\\frac", r"\\sum", r"\\int", r"∑", r"∫", r"≤", r"≥", r"≈", r"\bEquation\s+\d+"])
-
-    @staticmethod
-    def _detect_code(text):
-        return any(re.search(pattern, text, re.IGNORECASE) for pattern in [r"\bdef\s+\w+\(", r"\bclass\s+\w+", r"\bimport\s+\w+", r"```"])
-
-    @staticmethod
-    def _detect_references(text):
-        return any(re.search(pattern, text, re.IGNORECASE) for pattern in [r"\[\d+\]", r"\(\w+\s+et al\.,?\s+\d{4}\)", r"\bdoi:\s*10\."])
 
     def process_pending_papers(self, limit: int = 10) -> Dict[str, object]:
         conn = self._get_connection()
