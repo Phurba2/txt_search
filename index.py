@@ -14,7 +14,6 @@ DB_CONFIG = {
 
 
 def ingest_and_embed(limit: int = 100):
-    """Register Markdown files in markdown/, chunk them, and generate embeddings."""
     registration = create_default_processor().ingest()
     pipeline = EmbeddingPipeline(DB_CONFIG, EmbeddingGenerator())
     processing = pipeline.process_pending_papers(limit=limit)
@@ -22,5 +21,4 @@ def ingest_and_embed(limit: int = 100):
 
 
 def search(query: str, mode: SearchMode = SearchMode.HYBRID, limit: int = 5):
-    """Search indexed Markdown files and return ranked matching chunks."""
     return PaperSearchEngine(DB_CONFIG, EmbeddingGenerator()).search(query=query, mode=mode, limit=limit)
