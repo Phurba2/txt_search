@@ -22,9 +22,6 @@ CREATE TABLE IF NOT EXISTS paper_chunks (
     chunk_tokens INTEGER,
     embedding vector(384),
     section_name VARCHAR(255),
-    has_math BOOLEAN DEFAULT FALSE,
-    has_code BOOLEAN DEFAULT FALSE,
-    has_references BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (paper_id, chunk_index)
 );
