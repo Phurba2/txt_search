@@ -1,6 +1,8 @@
+
 What Is EliteFreelancer?
+
 It's a Nepal-focused creative services platform. Think of it as a place where clients can find and hire photographers, videographers, drone operators, and post-production folks. It's based in Kathmandu but serves people all across Nepal.
-@
+@1
 Who's Running the Show?
 
 The CEO and co-founder is Avi Rai, who handles market strategy. The leadership crew includes:
@@ -10,7 +12,7 @@ Arun Khadka - Chief IT Officer
 Sowpnil Manandhar - Chief Finance Manager
 Dawa Tamang - Chief Graphics Designer
 Deineem Rana - Chief Marketing Officer
-@
+@2
 What Kind of Services Can I Actually Book?
 
 Photography: Portraits, weddings, events, products, food, family, travel, and real estate.
@@ -20,7 +22,7 @@ Videography: Weddings, commercials, documentaries, music videos, promos, events,
 Drone Services: Aerial photography and video for landscapes, real estate, travel, weddings, mapping, and inspection.
 
 Post-Production: Video editing, photo retouching, color correction and grading, graphics design, VFX, and motion graphics.
-@
+@3
 What Else Do They Offer Besides Photo and Video?
 
 App/Web Development
@@ -29,12 +31,12 @@ Drone Cinema
 Urgent/Same-day shoots in the Kathmandu Valley
 
 So yes, you can even hire a developer or get a live stream set up through them.
-@
+@4
 What Kind of Events Do They Cover?
 
 Personal:
 Weddings, engagements, pre and post-weddings, anniversaries, maternity, kids, portraits, rice feeding, and family shoots.
-@
+@5
 Commercial:
 Real estate, food, cosmetics, corporate events, media, fashion, automobile, and live concerts.
 
@@ -43,7 +45,7 @@ Travel, mountain, sports, and product shoots.
 
 Religious and Cultural:
 Their own category, plus celebrations like parties and graduations.
-@
+@6
 How Does Hiring Work?
 
 It's a simple four-step flow:
@@ -52,7 +54,7 @@ It's a simple four-step flow:
 2. Check CV - Review a freelancer's portfolio and past client reviews.
 3. Contact & Hire - Discuss project requirements directly with the professional and hire them.
 4. Get Results - Receive the completed work and provide feedback.
-@
+@7
 For Freelancers:
 
 1. Create a profile.
@@ -60,7 +62,7 @@ For Freelancers:
 3. Get verified.
 4. Browse projects and submit proposals.
 5. Deliver work and get paid plus reviews.
-@
+@8
 What Do Freelancers Need to Join?
 
 At least 1-2 years of professional experience.
@@ -69,12 +71,12 @@ Proficiency in tools like Lightroom, Premiere Pro, After Effects, or DaVinci Res
 A modern creative style.
 A punctual and client-focused attitude.
 A defined specialization.
-@
+@9
 How Do Payments Work?
 
 Inside Nepal: eSewa and Khalti.
 Outside Nepal: Visa and Mastercard.
-@
+@10
 What About Pricing?
 
 Here's where I'd be careful. The advertised hourly rates are:
@@ -85,11 +87,11 @@ Drone: $40-150/hr
 Post Production: $20-150/hr
 
 But those are promotional website figures. You can't get an exact price without a current package or booking calculation. So treat those rates as a ballpark, not a quote.
-@
+@11
 Can I Book Something Same-Day?
 
 Yes, there's an urgent/same-day service with support within an hour, but is limited to the Kathmandu Valley and depends on date, time, and location. So no, it's not guaranteed anywhere in Nepal.
-@
+@12
 What About My Data and Privacy?
 
 We collect your name, email, phone, billing/shipping address, event details, and photos/media related to services. We use it to:
@@ -98,9 +100,9 @@ Provide services.
 Process bookings and payments.
 Send communications.
 Improve the site.
-@
+@13
 We don't sell or rent your data, though we may share it with trusted payment processors, cloud/photo storage services, and legal authorities when required.
-@
+@14
 One Important Thing to Keep in Mind
 
 "10K+ Active Clients"
@@ -112,11 +114,11 @@ One Important Thing to Keep in Mind
 800+ events covered
 800+ happy clients
 1,800+ total projects
-@
+@15
 Can I Recommend a Specific Freelancer or Confirm Availability?
 
 No, I can't. Availability depends on the date, time, and location, and has to be checked against current bookings. Same goes for guaranteeing a photographer, videographer, or drone operator will be free. That can't be confirmed without checking current bookings.
-@
+@16
 Useful Links If You Want to Dig Deeper
 
 Homepage - https://elitefreelancer.org/
@@ -127,18 +129,18 @@ Freelancer Application - https://www.elitefreelancer.org/apply/
 Signup - https://www.elitefreelancer.org/signup/
 Contact - https://www.elitefreelancer.org/contact.php
 Privacy Policy - https://elitefreelancer.org/policy.php
-@
+@17
 Contact Info
 
 Phone: +977 9861567005
 Email: https://www.elitefreelancer.org/contact.php
 
 Inquiries are answered within 24 hours.
-@
+@18
 One Last Thing
 
 Freelancers keep 90% of earnings with no hidden fees, access to projects from verified clients worldwide, secure payments, portfolio/review building, a flexible schedule, and 24/7 support.
-@
+@19
 Leadership Team
 
 Avi Rai - CEO and Co-founder, focused on market strategy
@@ -146,7 +148,7 @@ Arun Khadka - Chief IT Officer, handling technical operations, system architectu
 Sowpnil Manandhar - Chief Finance Manager
 Dawa Tamang - Chief Graphics Designer, overseeing editing, social media, and post-production
 Deineem Rana - Chief Marketing Officer, focused on offline marketing and brand development
-@
+@20
 Freelancer Specializations
 
 Photography
@@ -160,7 +162,7 @@ Landscape, real estate, travel, and weddings.
 
 Post-Production
 Photo retouching, video editing, color grading, and VFX.
-@
+@21
 Booking Information
 
 When booking, you need to provide:
@@ -174,31 +176,31 @@ Shoot duration (hourly or daily)
 Event address/location
 Client name, phone, email
 Payment option
-@
+@22
 Pricing
 
 go through the booking flow to get an actual number.
-@
+@23
 Payment Methods
 
 Visa/Mastercard: Yes, for international clients.
 eSewa/Khalti: For clients inside Nepal only.
-@
+@24
 Response Time
 
 within 24 hours.
-@
+@25
 Service Coverage
 
 Our service coverage is nationwide across Nepal. So even if you're not in Kathmandu, you can still use the platform.
-@
+@26
 Additional Services
 
 Live streaming setup
 App and web development
 Drone cinema
 Urgent/same-day shoots (Kathmandu Valley only)
-@
+@27
 Event Categories
 
 Personal Events
@@ -212,7 +214,7 @@ Travel, mountain, sports, and product shoots.
 
 Religious/Cultural Events
 Religious and cultural events are a separate category. Celebration events like parties and graduations are also listed.
-@
+@28
 Freelancer Onboarding
 
 Five steps:
@@ -222,7 +224,7 @@ Five steps:
 3. Get verified.
 4. Browse projects and submit proposals.
 5. Deliver work and receive payment/reviews.
-@
+@29
 Client Hiring Flow
 
 Four steps:
@@ -231,18 +233,18 @@ Four steps:
 2. Check CV - Review a freelancer's portfolio and past client reviews.
 3. Contact & Hire - Discuss project requirements directly with the professional and hire them.
 4. Get Results - Receive the completed work and provide feedback.
-@
+@30
 Same-Day/Urgent Booking
 
 An urgent/same-day service is advertised with immediate support within about an hour, but it's strictly limited to the Kathmandu Valley. Availability depends on date, time, and location and must be confirmed.
 
 Is same-day booking guaranteed anywhere in Nepal?
 No, it's limited to the Kathmandu Valley and subject to availability.
-@
+@31
 Refunds
 
 For refunds, service rules, or contractual terms, check the current policy pages directly since terms can change.
-@
+@32
 Data Collection
 
 What personal data does EliteFreelancer collect?
@@ -259,16 +261,16 @@ No, photos may be displayed only with explicit consent. Users can request remova
 
 Can I ask for my data to be deleted?
 Yes, users can request deletion, access/correct their data, and withdraw photo-use consent.
-@
+@33
 Contact
 
 Phone: +977 9861567005
 Email: The contact email is listed on the contact page. Check directly for the current address.
-@
+@34
 Freelancer Earnings
 
 freelancers keep 90% of earnings, with no hidden fees, access to projects from verified clients worldwide, secure payments, portfolio/review building, a flexible schedule, and 24/7 support. Verify current terms before treating these as contractual.
-@
+@35
 Trust and Verification
 
 Can you recommend a specific freelancer or confirm availability?
@@ -276,7 +278,7 @@ No. Availability depends on the requested date, time, and location and must be c
 
 Can you guarantee a photographer/videographer/drone operator will be free?
 No, availability cannot be confirmed without checking current bookings for the specific date, time, and location.
-@
+@36
 Website Stats (About Page)
 
 Registered Professionals - 280+
@@ -284,7 +286,7 @@ Team Members - 28+
 Events Covered - 800+
 Happy Clients - 800+
 Total Projects - 1,800+
-@
+@37
 Post-Production Services
 
 What post-production services are offered?
@@ -298,7 +300,7 @@ Video editors, colorists, sound engineers, and VFX artists.
 
 Post-production specializations for freelancers:
 Photo retouching, video editing, color grading, and VFX.
-@
+@38
 Drone Services
 
 EliteFreelancer offers drone services and drone cinematography, including aerial photography and videography for:
@@ -309,7 +311,7 @@ Travel
 Weddings
 Mapping
 Inspection
-@
+@39
 Freelancer Requirements
 
 At least 1-2 years of professional experience.
@@ -318,21 +320,21 @@ Technical proficiency in tools such as Adobe Lightroom, Premiere Pro, After Effe
 A modern and consistent creative style.
 A punctual and client-focused attitude.
 A defined specialization.
-@
+@40
 Marketplace Workflow
 
 1. Clients browse professionals.
 2. Review portfolios and CVs.
 3. Contact and hire a professional.
 4. Receive the completed work.
-@
+@41
 Additional Notes
 
 Does EliteFreelancer serve clients nationwide? Yes, EliteFreelancer serves clients nationwide in Nepal.
 Is service available all over Nepal? Yes, EliteFreelancer serves clients nationwide in Nepal.
 Can someone outside Kathmandu use EliteFreelancer? Yes, EliteFreelancer serves clients nationwide in Nepal.
 Is EliteFreelancer's coverage limited to one city? No, EliteFreelancer serves clients nationwide in Nepal.
-@
+@42
 Useful Pages
 
 Homepage - https://elitefreelancer.org/
