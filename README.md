@@ -1,8 +1,8 @@
-# Markdown Semantic Search with PostgreSQL and pgvector
+# Text Semantic Search with PostgreSQL and pgvector
 
-This project searches your own Markdown (`.md`) files using natural-language questions.
+This project searches your own txt files using natural-language questions.
 
-It reads Markdown files from `markdown/`, splits their text into overlapping chunks, creates vector embeddings with `all-MiniLM-L6-v2`, and stores everything in PostgreSQL with `pgvector`.
+It reads text files from `text/`, splits their text into overlapping chunks, creates vector embeddings with `all-MiniLM-L6-v2`, and stores everything in PostgreSQL with `pgvector`.
 
 ## 1. Install
 
