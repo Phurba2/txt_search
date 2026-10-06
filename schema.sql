@@ -1,4 +1,3 @@
--- Minimal schema for user-provided Markdown files and semantic search.
 CREATE EXTENSION IF NOT EXISTS vector;
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
@@ -27,8 +26,13 @@ CREATE TABLE IF NOT EXISTS paper_chunks (
 );
 
 CREATE INDEX IF NOT EXISTS idx_chunks_embedding
-    ON paper_chunks USING hnsw (embedding vector_cosine_ops)
+    ON paper_chunks 
+    USING hnsw (embedding vector_cosine_ops)
     WITH (m = 16, ef_construction = 64);
-CREATE INDEX IF NOT EXISTS idx_chunks_paper_id ON paper_chunks (paper_id);
+
+CREATE INDEX IF NOT EXISTS idx_chunks_paper_id 
+    ON paper_chunks (paper_id);
+
 CREATE INDEX IF NOT EXISTS idx_chunks_text_trgm
-    ON paper_chunks USING GIN (chunk_text gin_trgm_ops);
+    ON paper_chunks 
+    USING GIN (chunk_text gin_trgm_ops);
