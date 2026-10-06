@@ -8,8 +8,8 @@ from psycopg2.extras import execute_batch
 
 from config.settings import DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD, EMBEDDING_BATCH_SIZE
 from src.embeddings import EmbeddingGenerator
-from src.markdown_extractor import MarkdownExtractor
-from src.text_chunker import TextChunker
+from src.txt_extractor import TxtExtractor
+from src.txt_chunker import TxtChunker
 
 logger = logging.getLogger(__name__)
 
