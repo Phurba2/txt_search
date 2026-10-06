@@ -1,7 +1,5 @@
 import sys
-
 from index import search
-
 
 question = " ".join(sys.argv[1:]) or "What is EliteFreelancer?"
 
