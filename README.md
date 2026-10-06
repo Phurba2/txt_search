@@ -54,17 +54,15 @@ python setup_db.py
 
 ## 3. Add Markdown files
 
-Put your files in `markdown/`:
+Put your files in `txt/`:
 
 ```text
-markdown/
-├── money.md
-└── machine_learning.md
+txt/
+├── a.txt
+└── b.txt
 ```
 
-Only `.md` files are read. The folder is tracked in Git, but Markdown documents are ignored so private files are not uploaded.
-
-## 4. Index the Markdown files
+## 4. Index the txt files
 
 Run:
 
@@ -75,41 +73,15 @@ print(ingest_and_embed())
 PY
 ```
 
-This registers each Markdown file, reads it as UTF-8, splits it into chunks, generates embeddings, and stores the chunks and vectors in PostgreSQL. The first run downloads the `all-MiniLM-L6-v2` model.
+This registers each txt file, reads it as UTF-8, splits it into chunks, generates embeddings, and stores the chunks and vectors in PostgreSQL. The first run downloads `all-MiniLM-L6-v2` model.
 
 ## 5. How chunking works
 
-Markdown headings are kept as section names. For example:
+@1 are kept as section names.
 
-```md
-# Psychology of Money
-
-## Staying Wealthy
-
-Staying wealthy requires avoiding ruin and surviving difficult periods.
-```
-
-The heading becomes metadata such as `section_name = 'Staying Wealthy'`. Text is then grouped into chunks of approximately 768 words, with a maximum of about 1,024 words and roughly 128 words of overlap between neighboring chunks. Overlap preserves context when an idea crosses a chunk boundary.
+Text is then grouped into chunks of approximately 400 words, with a maximum of 800 words and roughly 200 words of overlap between neighboring chunks. Overlap preserves context when an idea crosses a chunk boundary.
 
 ## 6. Search
-
-Create `ask.py` in the project root (the repository includes the same example):
-
-```python
-import sys
-from index import search
-
-question = " ".join(sys.argv[1:]) or "What is EliteFreelancer?"
-
-for result in search(question):
-    print(f"File: {result.filename}")
-    print(f"Score: {result.score:.4f}")
-    for chunk in result.matched_chunks:
-        print("\n--- Match ---")
-        print(chunk["text"])
-```
-
-Ask a question:
 
 ```bash
 python ask.py "What services does EliteFreelancer provide?"
