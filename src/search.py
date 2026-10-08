@@ -33,7 +33,7 @@ class PaperSearchEngine:
     def _get_connection(self):
         return psycopg2.connect(**self.db_config)
 
-    def search(self, query: str, mode=SearchMode.VECTOR, limit=10, filters: Optional[Dict] = None):
+    def search(self, query: str, mode=SearchMode.VECTOR, limit=10):
         if not query or limit <= 0:
             return []
         if mode == SearchMode.VECTOR:
