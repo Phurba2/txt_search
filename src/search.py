@@ -96,7 +96,11 @@ class PaperSearchEngine:
             })
         results = sorted(grouped.values(), key=lambda x: x["score"], reverse=True)
         for result in results:
-            result["matched_chunks"] = sorted(result["matched_chunks"], key=lambda x: x["score"], reverse=True)[:3]
+            result["matched_chunks"] = sorted(
+                result["matched_chunks"],
+                key=lambda x: x["score"],
+                reverse=True
+            )[:3]
         return [SearchResult(**result) for result in results[:limit]]
 
     def _combine_results(self, vectors, keywords, limit):
