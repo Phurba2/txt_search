@@ -114,7 +114,8 @@ class PaperSearchEngine:
 
     def find_similar_papers(self, paper_id, limit=10):
         with self._get_connection() as conn, conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT embedding FROM paper_chunks WHERE paper_id = %s AND embedding IS NOT NULL ORDER BY id LIMIT 1", (paper_id,))
+            cur.execute("SELECT embedding FROM paper_chunks
+            WHERE paper_id = %s AND embedding IS NOT NULL ORDER BY id LIMIT 1", (paper_id,))
             row = cur.fetchone()
             if not row:
                 return []
