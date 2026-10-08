@@ -77,15 +77,22 @@ class PaperSearchEngine:
     def _group(self, rows, limit):
         grouped = {}
         for row in rows:
-            item = grouped.setdefault(row["paper_id"], {
-                "paper_id": row["paper_id"], "filename": row["filename"],
-                "title": row["title"], "score": float(row["score"]), "matched_chunks": []
-            })
+            item = grouped.setdefault(row["paper_id"],
+                {
+                    "paper_id": row["paper_id"],
+                    "filename": row["filename"],
+                    "title": row["title"],
+                    "score": float(row["score"]),
+                    "matched_chunks": []
+                })
             item["score"] = max(item["score"], float(row["score"]))
-            item["matched_chunks"].append({
-                "chunk_id": row["chunk_id"], "chunk_index": row["chunk_index"],
-                "text": row["chunk_text"], "section_name": row["section_name"],
-                "score": float(row["score"])
+            item["matched_chunks"].append(
+                {
+                    "chunk_id": row["chunk_id"],
+                    "chunk_index": row["chunk_index"],
+                    "text": row["chunk_text"],
+                    "section_name": row["section_name"],
+                    "score": float(row["score"])
             })
         results = sorted(grouped.values(), key=lambda x: x["score"], reverse=True)
         for result in results:
