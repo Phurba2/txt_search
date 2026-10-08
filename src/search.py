@@ -41,7 +41,8 @@ class PaperSearchEngine:
         if mode == SearchMode.KEYWORD:
             return self._keyword_search(query, limit)
         if mode == SearchMode.HYBRID:
-            return self._combine_results(self._vector_search(query, limit * 2), self._keyword_search(query, limit * 2), limit)
+            return self._combine_results(self._vector_search(query, limit * 2),
+            self._keyword_search(query, limit * 2), limit)
         raise ValueError(f"Unknown search mode: {mode}")
 
     def _vector_search(self, query, limit):
